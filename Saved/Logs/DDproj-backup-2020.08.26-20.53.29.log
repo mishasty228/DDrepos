@@ -1,0 +1,1747 @@
+﻿Log file open, 08/26/20 15:51:50
+LogInit: Display: Running engine for game: DDproj
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.211579
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13908680
+LogInit: Engine Version: 4.25.2-13908680+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU:         Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 1050
+LogInit: Compiled (64-bit): Jul 22 2020 02:11:51
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.08.26-12.51.50:386][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.26-12.51.50:386][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.26-12.51.50:386][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Engine.ini]
+[2020.08.26-12.51.50:386][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.26-12.51.50:386][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:2]]
+[2020.08.26-12.51.50:386][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Engine.ini]
+[2020.08.26-12.51.50:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Engine.ini]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Engine.ini]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.26-12.51.50:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Engine.ini]
+[2020.08.26-12.51.50:387][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Engine.ini]
+[2020.08.26-12.51.50:394][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.26-12.51.50:394][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.26-12.51.50:395][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.26-12.51.50:396][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.26-12.51.50:396][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.26-12.51.50:396][  0]LogHAL: Display: Platform has ~ 8 GB [8546013184 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.26-12.51.50:396][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.26-12.51.50:396][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2020.08.26-12.51.50:396][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Scalability.ini]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.26-12.51.50:397][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.26-12.51.50:398][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.26-12.51.50:398][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.26-12.51.50:398][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.08.26-12.51.50:398][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Config/Windows/Engine.ini]
+[2020.08.26-12.51.50:398][  0]LogInit: Computer: MICHAEL-PC
+[2020.08.26-12.51.50:398][  0]LogInit: User: misha
+[2020.08.26-12.51.50:398][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.08.26-12.51.50:398][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.26-12.51.50:398][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.08.26-12.51.50:398][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.26-12.51.50:398][  0]LogMemory: Process Physical Memory: 114.06 MB used, 114.06 MB peak
+[2020.08.26-12.51.50:398][  0]LogMemory: Process Virtual Memory: 95.21 MB used, 95.21 MB peak
+[2020.08.26-12.51.50:398][  0]LogMemory: Physical Memory: 5783.46 MB used,  2366.65 MB free, 8150.11 MB total
+[2020.08.26-12.51.50:398][  0]LogMemory: Virtual Memory: 5126.80 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.08.26-12.51.50:406][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.26-12.51.50:438][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.08.26-12.51.50:439][  0]LogInit: Using OS detected language (ru-RU).
+[2020.08.26-12.51.50:439][  0]LogInit: Using OS detected locale (ru-RU).
+[2020.08.26-12.51.50:441][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2020.08.26-12.51.50:441][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2020.08.26-12.51.50:441][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2020.08.26-12.51.50:441][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2020.08.26-12.51.50:441][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2020.08.26-12.51.50:441][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2020.08.26-12.51.50:441][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2020.08.26-12.51.50:441][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2020.08.26-12.51.50:442][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.26-12.51.50:479][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.26-12.51.50:479][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.26-12.51.50:652][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.26-12.51.50:652][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.26-12.51.50:652][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.26-12.51.50:652][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.26-12.51.50:743][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.08.26-12.51.50:743][  0]LogD3D11RHI:       1977/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.08.26-12.51.50:746][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.26-12.51.50:746][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.26-12.51.50:746][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.26-12.51.50:754][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.26-12.51.50:755][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.26-12.51.50:755][  0]LogWindows: EnumDisplayDevices:
+[2020.08.26-12.51.50:755][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2020.08.26-12.51.50:755][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
+[2020.08.26-12.51.50:755][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2020.08.26-12.51.50:756][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2020.08.26-12.51.50:756][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.08.26-12.51.50:756][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.08.26-12.51.50:756][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.08.26-12.51.50:756][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.08.26-12.51.50:756][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
+[2020.08.26-12.51.50:818][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.08.26-12.51.50:819][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.08.26-12.51.50:819][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.26-12.51.50:819][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.08.26-12.51.50:906][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.08.26-12.51.51:273][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.26-12.51.51:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.26-12.51.51:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.26-12.51.51:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.26-12.51.51:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.26-12.51.51:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.26-12.51.51:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.26-12.51.51:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.26-12.51.51:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.26-12.51.51:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.26-12.51.51:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.26-12.51.51:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.26-12.51.51:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.26-12.51.51:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.08.26-12.51.51:351][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.26-12.51.51:362][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.26-12.51.51:373][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.26-12.51.51:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.26-12.51.51:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.26-12.51.51:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.26-12.51.51:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.26-12.51.51:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.26-12.51.51:456][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.26-12.51.51:456][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.26-12.51.51:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.26-12.51.51:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.26-12.51.51:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.26-12.51.51:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.26-12.51.51:504][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.26-12.51.51:513][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.26-12.51.51:581][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Intermediate/Shaders/WorkingDirectory/720/).
+[2020.08.26-12.51.51:581][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/misha/AppData/Local/Temp/UnrealShaderWorkingDir/5F264F5A4CABFE64BA8B62B35B574AF5/'.
+[2020.08.26-12.51.51:582][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.26-12.51.51:582][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.26-12.51.51:582][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.26-12.51.52:598][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.26-12.51.52:667][  0]LogDerivedDataCache: Loaded boot cache 0.07s 76MB C:/Users/misha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.26-12.51.52:667][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/misha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.08.26-12.51.52:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/misha/Documents/Unreal Projects/DDproj/DD/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.26-12.51.52:667][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.26-12.51.52:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/misha/Documents/Unreal Projects/DDproj/DD/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.26-12.51.52:667][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.26-12.51.52:680][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.26-12.51.52:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.26-12.51.52:681][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.26-12.51.52:682][  0]LogDerivedDataCache: Using Local data cache path C:/Users/misha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.26-12.51.52:682][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.26-12.51.52:682][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.26-12.51.52:755][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.26-12.51.52:756][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.26-12.51.52:789][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2020.08.26-12.51.53:109][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.26-12.51.53:259][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.26-12.51.53:259][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.26-12.51.53:259][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.26-12.51.53:259][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.26-12.51.53:259][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.26-12.51.53:283][  0]LogNetVersion: DDproj 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2381712216)
+[2020.08.26-12.51.53:912][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002721E86D700), frame # 0
+[2020.08.26-12.51.53:912][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002721E7E47C0), frame # 0
+[2020.08.26-12.51.53:914][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002721E7FDE00), frame # 0
+[2020.08.26-12.51.54:012][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.090363 seconds
+[2020.08.26-12.51.54:018][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.08.26-12.51.54:018][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.08.26-12.51.54:018][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.26-12.51.54:409][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.26-12.51.54:414][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.26-12.51.54:510][  0]SourceControl: Source control is disabled
+[2020.08.26-12.51.54:510][  0]SourceControl: Source control is disabled
+[2020.08.26-12.51.54:514][  0]SourceControl: Source control is disabled
+[2020.08.26-12.51.54:517][  0]SourceControl: Source control is disabled
+[2020.08.26-12.51.54:526][  0]SourceControl: Source control is disabled
+[2020.08.26-12.51.54:812][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.26-12.51.54:836][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.26-12.51.54:836][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.26-12.51.54:900][  0]LogOcInput: OculusInput pre-init called
+[2020.08.26-12.51.54:912][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.26-12.51.54:912][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.26-12.51.54:988][  0]LogEngine: Initializing Engine...
+[2020.08.26-12.51.54:991][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.26-12.51.54:991][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.08.26-12.51.54:992][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.26-12.51.55:155][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.26-12.51.55:167][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.26-12.51.55:167][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000272212CBC00), frame # 0
+[2020.08.26-12.51.55:167][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027221338B80), frame # 0
+[2020.08.26-12.51.55:261][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.26-12.51.55:261][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.26-12.51.55:261][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.26-12.51.55:261][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.26-12.51.55:261][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.26-12.51.55:261][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.26-12.51.55:261][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.26-12.51.55:261][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.26-12.51.55:262][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.26-12.51.55:262][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.26-12.51.55:273][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.26-12.51.55:273][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.26-12.51.55:311][  0]LogAudioMixer: Display: Using Audio Device Динамики (2- USB Audio Device)
+[2020.08.26-12.51.55:314][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.26-12.51.55:316][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.26-12.51.55:316][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.26-12.51.55:318][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.26-12.51.55:319][  0]LogInit: FAudioDevice initialized.
+[2020.08.26-12.51.55:319][  0]LogNetVersion: Set ProjectVersion to 0.0.1.0. Version Checksum will be recalculated on next use.
+[2020.08.26-12.51.55:449][  0]LogDerivedDataCache: Saved boot cache 0.13s 76MB C:/Users/misha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.26-12.51.55:456][  0]LogInit: Texture streaming: Enabled
+[2020.08.26-12.51.55:475][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.26-12.51.55:476][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.26-12.51.55:477][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.26-12.51.55:551][  0]LogInit: Transaction tracking system initialized
+[2020.08.26-12.51.55:575][  0]BlueprintLog: New page: Editor Load
+[2020.08.26-12.51.55:657][  0]LocalizationService: Localization service is disabled
+[2020.08.26-12.51.56:451][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.26-12.51.56:451][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.26-12.51.56:598][  0]LogFileCache: Scanning file cache for directory 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/' took 0.03s
+[2020.08.26-12.51.56:861][  0]SourceControl: Source control is disabled
+[2020.08.26-12.51.56:991][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.26-12.52.26:573][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.08.26-12.52.26:574][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.26-12.52.26:598][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.26-12.52.28:715][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2020.08.26-12.52.28:715][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.26-12.52.28:721][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/DD/Core/ProceduralDung/DunGenerator
+[2020.08.26-12.52.28:739][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.26-12.52.28:740][  0]LogUnrealEdMisc: Loading editor; pre map load, took 39.801
+[2020.08.26-12.52.28:740][  0]Cmd: MAP LOAD FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Testlvl.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.26-12.52.28:753][  0]LightingResults: New page: Lighting Build
+[2020.08.26-12.52.28:754][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-12.52.28:754][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.26-12.52.28:754][  0]MapCheck: New page: Map Check
+[2020.08.26-12.52.28:754][  0]LightingResults: New page: Lighting Build
+[2020.08.26-12.52.28:773][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000272212CBC00), frame # 0
+[2020.08.26-12.52.28:773][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027221338B80), frame # 0
+[2020.08.26-12.52.28:774][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.08.26-12.52.33:514][  0]LogAIModule: Creating AISystem for world Testlvl
+[2020.08.26-12.52.33:515][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002722C2B6400), frame # 0
+[2020.08.26-12.52.33:515][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002722BE3CE00), frame # 0
+[2020.08.26-12.52.33:546][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.26-12.52.33:573][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.08.26-12.52.33:574][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.26-12.52.33:575][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,213ms to complete.
+[2020.08.26-12.52.33:575][  0]LogFileHelpers: Loading map 'Testlvl' took 4.834
+[2020.08.26-12.52.33:577][  0]LogUnrealEdMisc: Total Editor Startup Time, took 44.638
+[2020.08.26-12.52.33:749][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.26-12.52.33:760][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.26-12.52.33:770][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.26-12.52.33:781][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.26-12.52.33:805][  0]LogCollectionManager: Loaded 0 collections in 0.000957 seconds
+[2020.08.26-12.52.33:846][  0]LogFileCache: Scanning file cache for directory 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Collections/' took 0.00s
+[2020.08.26-12.52.33:846][  0]LogFileCache: Scanning file cache for directory 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/Developers/misha/Collections/' took 0.00s
+[2020.08.26-12.52.33:846][  0]LogFileCache: Scanning file cache for directory 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/Collections/' took 0.00s
+[2020.08.26-12.52.33:846][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 3427 classes and 821 folders.
+[2020.08.26-12.52.33:861][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.08.26-12.52.34:355][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.26-12.52.34:400][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2020.08.26-12.52.34:546][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.08.26-12.52.34:603][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.26-12.52.34:603][  0]LogLoad: (Engine Initialization) Total time: 45.66 seconds
+[2020.08.26-12.52.34:603][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.26-12.52.34:661][  0]LogAssetRegistry: Asset discovery search completed in 41.8743 seconds
+[2020.08.26-12.52.34:666][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.08.26-12.52.34:678][  0]LogContentStreaming: Texture pool size now 400 MB
+[2020.08.26-12.52.34:690][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.26-12.52.34:705][  0]LogSlate: Took 0.009263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.26-12.52.34:916][  0]LogRenderer: Reallocating scene render targets to support 796x352 Format 9 NumSamples 1 (Frame:1).
+[2020.08.26-12.52.34:916][  0]LogSlate: Took 0.011360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.26-12.52.36:865][146]LogRenderer: Reallocating scene render targets to support 1200x564 Format 9 NumSamples 1 (Frame:137).
+[2020.08.26-12.52.37:934][258]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.26-12.52.37:963][258]LogAssetEditorSubsystem: Opening Asset editor for World /Game/DD/Core/ProceduralDung/ProcTest.ProcTest
+[2020.08.26-12.52.37:974][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.08.26-12.52.37:977][258]Cmd: MAP LOAD FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/ProcTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.26-12.52.37:977][258]LightingResults: New page: Lighting Build
+[2020.08.26-12.52.37:977][258]LoadErrors: New page: Loading map: ProcTest.umap
+[2020.08.26-12.52.38:008][258]LogWorld: UWorld::CleanupWorld for Testlvl, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-12.52.38:008][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.26-12.52.38:009][258]MapCheck: New page: Map Check
+[2020.08.26-12.52.38:009][258]LightingResults: New page: Lighting Build
+[2020.08.26-12.52.38:019][258]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002722C2B6400), frame # 258
+[2020.08.26-12.52.38:019][258]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002722BE3CE00), frame # 258
+[2020.08.26-12.52.38:020][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.08.26-12.52.38:145][258]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.26-12.52.38:145][258]LogAIModule: Creating AISystem for world ProcTest
+[2020.08.26-12.52.38:145][258]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000272400E1000), frame # 258
+[2020.08.26-12.52.38:145][258]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002722C0B9E40), frame # 258
+[2020.08.26-12.52.38:159][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.08.26-12.52.38:204][258]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.26-12.52.38:204][258]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,16ms to complete.
+[2020.08.26-12.52.38:204][258]LogFileHelpers: Loading map 'ProcTest' took 0.228
+[2020.08.26-12.52.39:422][372]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator
+[2020.08.26-12.52.40:084][372]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2020.08.26-12.52.41:688][372]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/' took 7.07s
+[2020.08.26-12.52.41:756][372]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.26-12.53.44:667][592]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-12.53.44:759][592]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2020.08.26-12.54.59:808][677]LogEditorTransaction: Undo Replace Pin Variable
+[2020.08.26-12.56.00:159][440]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-12.56.00:266][440]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2020.08.26-12.56.09:939][597]LogSlate: Took 0.008359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.26-12.56.38:140][325]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-12.56.38:234][325]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.08.26-12.56.49:548][550]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.08.26-12.56.49:584][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Core/ProceduralDung/DunGenerator" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset" SILENT=true
+[2020.08.26-12.56.49:712][550]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator6D951F5640E01562941DBF9CFD814B16.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset'
+[2020.08.26-12.56.49:731][550]AssetCheck: New page: Asset Save: DunGenerator
+[2020.08.26-12.56.49:731][550]LogContentValidation: Display: Validating Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator
+[2020.08.26-13.00.56:370][924]LogEditorTransaction: Undo Paste clipboard contents
+[2020.08.26-13.01.25:223][880]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.01.25:324][880]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.08.26-13.04.04:304][280]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.04.04:402][280]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.08.26-13.05.57:524][823]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.08.26-13.05.57:527][823]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DD/Core/ProceduralDung/ProcTest' took 0.037
+[2020.08.26-13.05.57:528][823]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DD/Core/ProceduralDung/DunGenerator] ([1] browsable assets)...
+[2020.08.26-13.05.57:541][823]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator]
+[2020.08.26-13.05.57:541][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/DD/Core/ProceduralDung/DunGenerator]
+[2020.08.26-13.05.57:671][823]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator_Auto18AF046984B1D6EA57CC8F0B42D25B6C9.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/DunGenerator_Auto1.uasset'
+[2020.08.26-13.05.57:673][823]LogFileHelpers: Auto-saving content packages took 0.146
+[2020.08.26-13.09.24:288][460]LogSlate: Took 0.008989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.08.26-13.09.39:012][494]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.08.26-13.09.39:055][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Core/ProceduralDung/DunGenerator" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset" SILENT=true
+[2020.08.26-13.09.39:180][494]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator76CADE2F4C8825199948A0832D90B7F0.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset'
+[2020.08.26-13.09.39:204][494]AssetCheck: New page: Asset Save: DunGenerator
+[2020.08.26-13.09.39:204][494]LogContentValidation: Display: Validating Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator
+[2020.08.26-13.10.14:637][309]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.08.26-13.10.14:686][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Core/ProceduralDung/DunGenerator" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset" SILENT=true
+[2020.08.26-13.10.14:815][309]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGeneratorCEDF9329428CD1B6F0D6A68E24199CBF.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset'
+[2020.08.26-13.10.14:833][309]AssetCheck: New page: Asset Save: DunGenerator
+[2020.08.26-13.10.14:833][309]LogContentValidation: Display: Validating Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator
+[2020.08.26-13.13.45:027][788]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.13.45:142][788]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.08.26-13.13.46:752][864]LogRenderer: Reallocating scene render targets to support 1300x692 Format 9 NumSamples 1 (Frame:1).
+[2020.08.26-13.14.22:971][ 13]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.14.23:080][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2020.08.26-13.17.13:868][275]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.17.14:017][275]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.08.26-13.17.27:404][308]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.17.27:549][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.08.26-13.18.41:400][398]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.18.41:548][398]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.08.26-13.18.57:814][623]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.18.57:962][623]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.08.26-13.20.53:560][537]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.20.53:681][537]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.08.26-13.21.27:914][460]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.21.28:024][460]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2020.08.26-13.21.50:383][296]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.21.50:498][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.08.26-13.22.12:047][ 26]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.22.12:166][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.08.26-13.22.26:258][162]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.22.26:379][162]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.08.26-13.24.51:893][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.08.26-13.24.51:898][ 21]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DD/Core/ProceduralDung/ProcTest' took 0.040
+[2020.08.26-13.24.51:899][ 21]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DD/Core/ProceduralDung/DunGenerator] ([1] browsable assets)...
+[2020.08.26-13.24.51:910][ 21]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator]
+[2020.08.26-13.24.51:910][ 21]OBJ SavePackage: Finished generating thumbnails for package [/Game/DD/Core/ProceduralDung/DunGenerator]
+[2020.08.26-13.24.52:078][ 21]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator_Auto2CCB70FA1454D304B3FC045A6ACFADD2E.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/DunGenerator_Auto2.uasset'
+[2020.08.26-13.24.52:083][ 21]LogFileHelpers: Auto-saving content packages took 0.185
+[2020.08.26-13.28.02:282][665]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.28.02:389][665]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.08.26-13.28.24:618][527]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.28.24:723][527]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2020.08.26-13.28.30:372][991]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.28.30:476][991]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.08.26-13.28.35:126][360]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.28.35:231][360]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.08.26-13.28.46:403][285]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.28.46:507][285]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.08.26-13.34.52:476][475]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2020.08.26-13.34.52:480][475]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DD/Core/ProceduralDung/ProcTest' took 0.036
+[2020.08.26-13.34.52:480][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DD/Core/ProceduralDung/DunGenerator] ([1] browsable assets)...
+[2020.08.26-13.34.52:495][475]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator]
+[2020.08.26-13.34.52:495][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/DD/Core/ProceduralDung/DunGenerator]
+[2020.08.26-13.34.52:645][475]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator_Auto38DE8AEC7401ADC038C0E3C986B8DDD64.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/DunGenerator_Auto3.uasset'
+[2020.08.26-13.34.52:647][475]LogFileHelpers: Auto-saving content packages took 0.167
+[2020.08.26-13.41.29:865][588]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.41.29:966][588]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.08.26-13.44.39:390][ 13]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-13.44.39:499][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2020.08.26-13.45.51:233][914]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.08.26-13.45.51:283][914]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest_Auto4B3CA8AF840C439D2DABE3C802589FDD6.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/ProcTest_Auto4.umap'
+[2020.08.26-13.45.51:288][914]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DD/Core/ProceduralDung/ProcTest' took 0.084
+[2020.08.26-13.45.51:288][914]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.084
+[2020.08.26-13.45.51:288][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DD/Core/ProceduralDung/DunGenerator] ([1] browsable assets)...
+[2020.08.26-13.45.51:301][914]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator]
+[2020.08.26-13.45.51:301][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/DD/Core/ProceduralDung/DunGenerator]
+[2020.08.26-13.45.51:435][914]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator_Auto42F81C55C4E81918836373EBA2CCADFF3.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/DunGenerator_Auto4.uasset'
+[2020.08.26-13.45.51:437][914]LogFileHelpers: Auto-saving content packages took 0.148
+[2020.08.26-13.46.08:863][905]Cmd: ACTOR SELECT OFCLASS CLASS=DunGenerator_C
+[2020.08.26-13.46.27:209][267]LogEditorViewport: Clicking Background
+[2020.08.26-13.46.29:835][410]LogEditorViewport: Clicking on Actor (LMB): DunGenerator_C (DunGenerator)
+[2020.08.26-13.47.02:366][404]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.08.26-13.47.02:401][404]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest4C58D04247659B3D98BBF6A6DF4BEC1C.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/ProcTest.umap'
+[2020.08.26-13.47.02:515][404]AssetCheck: New page: Asset Save: ProcTest
+[2020.08.26-13.47.02:515][404]LogContentValidation: Display: Validating World /Game/DD/Core/ProceduralDung/ProcTest.ProcTest
+[2020.08.26-13.57.02:344][388]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.08.26-13.57.02:398][388]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest_Auto5343963AA4386B171BB600080EBFED413.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/ProcTest_Auto5.umap'
+[2020.08.26-13.57.02:403][388]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DD/Core/ProceduralDung/ProcTest' took 0.089
+[2020.08.26-13.57.02:403][388]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.089
+[2020.08.26-14.20.42:366][324]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{8eb0fe10-0183-4827-95c1-ac486d5d7c59}.
+[2020.08.26-14.20.42:370][324]LogTemp: Resetting audio stream to device id 
+[2020.08.26-14.20.42:466][324]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.26-14.20.42:466][324]LogAudioMixer: Display: 1: FrontRight
+[2020.08.26-14.20.42:654][332]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{58fcd4df-c36c-43d4-9193-bcf046086304}.
+[2020.08.26-14.20.42:662][332]LogTemp: Resetting audio stream to device id 
+[2020.08.26-14.20.42:777][332]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.26-14.20.42:777][332]LogAudioMixer: Display: 1: FrontRight
+[2020.08.26-14.20.43:004][350]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{58fcd4df-c36c-43d4-9193-bcf046086304}.
+[2020.08.26-14.20.43:007][350]LogTemp: Resetting audio stream to device id 
+[2020.08.26-14.20.43:252][350]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.26-14.20.43:252][350]LogAudioMixer: Display: 1: FrontRight
+[2020.08.26-19.23.10:145][667]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.08.26-19.23.10:209][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.08.26-19.23.10:307][667]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest060B62384A32BD6E39E1BCA99E15B409.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/ProcTest.umap'
+[2020.08.26-19.23.10:369][667]LogFileHelpers: Saving map 'ProcTest' took 0.192
+[2020.08.26-19.23.10:369][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Core/ProceduralDung/DunGenerator" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset" SILENT=true
+[2020.08.26-19.23.10:515][667]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator3FD7A92C448196DD25994BB982E6A03C.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset'
+[2020.08.26-19.23.10:544][667]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.26-19.23.10:544][667]LogContentValidation: Display: Validating World /Game/DD/Core/ProceduralDung/ProcTest.ProcTest
+[2020.08.26-19.23.10:544][667]LogContentValidation: Display: Validating Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator
+[2020.08.26-19.27.01:876][843]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.27.02:010][843]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2020.08.26-19.28.51:261][189]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.28.51:386][189]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.08.26-19.31.34:191][456]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.31.34:320][456]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.08.26-19.33.19:018][304]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.33.19:253][304]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2020.08.26-19.33.44:782][462]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.08.26-19.33.44:861][462]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest_Auto6763C29DD477697E5462458B1696BE61B.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/ProcTest_Auto6.umap'
+[2020.08.26-19.33.44:874][462]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DD/Core/ProceduralDung/ProcTest' took 0.123
+[2020.08.26-19.33.44:874][462]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.123
+[2020.08.26-19.33.44:874][462]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DD/Core/ProceduralDung/DunGenerator] ([1] browsable assets)...
+[2020.08.26-19.33.44:886][462]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator]
+[2020.08.26-19.33.44:887][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/DD/Core/ProceduralDung/DunGenerator]
+[2020.08.26-19.33.45:057][462]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator_Auto6CA39C62E4CC5A46848A0019D69630A47.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/DunGenerator_Auto6.uasset'
+[2020.08.26-19.33.45:060][462]LogFileHelpers: Auto-saving content packages took 0.186
+[2020.08.26-19.36.11:812][327]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.36.11:938][327]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.08.26-19.40.04:227][150]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.40.04:365][150]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2020.08.26-19.40.36:019][709]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.40.36:136][709]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.08.26-19.41.30:651][336]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.41.30:778][336]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.08.26-19.41.46:117][121]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.41.46:245][121]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.08.26-19.42.26:808][ 72]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.42.26:954][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.08.26-19.44.34:816][102]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.44.34:954][102]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2020.08.26-19.45.19:804][419]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.45.19:972][419]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.08.26-19.47.04:979][397]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.47.05:136][397]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2020.08.26-19.48.33:385][217]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.48.33:436][217]LogBlueprint: Error: [Compiler DunGenerator] The current value of the ' Instance Transform ' pin is invalid: 'Instance Transform' in action 'Add Instance' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2020.08.26-19.48.33:695][217]LogUObjectHash: Compacting FUObjectHashTables data took   5.49ms
+[2020.08.26-19.48.33:829][217]LogSlate: Took 0.011824 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.08.26-19.49.07:203][ 58]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.49.07:472][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2020.08.26-19.50.34:312][764]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2020.08.26-19.50.34:362][764]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest_Auto7CFF8AFED4EE5B182EB06BFA14FFDFA4B.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/ProcTest_Auto7.umap'
+[2020.08.26-19.50.34:367][764]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DD/Core/ProceduralDung/ProcTest' took 0.095
+[2020.08.26-19.50.34:367][764]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.095
+[2020.08.26-19.50.34:367][764]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DD/Core/ProceduralDung/DunGenerator] ([1] browsable assets)...
+[2020.08.26-19.50.34:381][764]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator]
+[2020.08.26-19.50.34:381][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/DD/Core/ProceduralDung/DunGenerator]
+[2020.08.26-19.50.34:549][764]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator_Auto7E49B11224388BC0371CD799B0F0C773F.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/DunGenerator_Auto7.uasset'
+[2020.08.26-19.50.34:552][764]LogFileHelpers: Auto-saving content packages took 0.185
+[2020.08.26-19.51.33:649][651]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.51.33:902][651]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2020.08.26-19.52.10:639][330]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2020.08.26-19.52.10:710][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.08.26-19.52.10:744][330]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTestE5FF65E7401DF996F1CAC3A2B98EA52B.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/ProcTest.umap'
+[2020.08.26-19.52.10:801][330]LogFileHelpers: Saving map 'ProcTest' took 0.125
+[2020.08.26-19.52.10:813][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Core/ProceduralDung/DunGenerator" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset" SILENT=true
+[2020.08.26-19.52.10:965][330]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGeneratorE25E840C448E8395DD3C1F8557580A60.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset'
+[2020.08.26-19.52.10:992][330]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.26-19.52.10:992][330]LogContentValidation: Display: Validating World /Game/DD/Core/ProceduralDung/ProcTest.ProcTest
+[2020.08.26-19.52.10:992][330]LogContentValidation: Display: Validating Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator
+[2020.08.26-19.52.11:470][355]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.52.11:715][355]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2020.08.26-19.53.31:676][804]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.53.31:920][804]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2020.08.26-19.56.09:380][959]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-19.56.09:619][959]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
+[2020.08.26-20.01.00:021][366]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.01.00:274][366]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2020.08.26-20.02.04:571][713]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.02.04:827][713]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2020.08.26-20.05.12:801][273]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.05.13:309][273]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2020.08.26-20.05.30:226][153]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.05.30:915][153]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2020.08.26-20.05.57:571][740]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.05.58:179][740]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2020.08.26-20.06.39:706][ 75]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.06.40:289][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2020.08.26-20.06.55:731][ 51]LogEditorTransaction: Undo Move Node
+[2020.08.26-20.07.29:503][916]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.07.30:097][916]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2020.08.26-20.08.15:163][510]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.08.15:716][510]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2020.08.26-20.08.38:350][937]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.08.38:905][937]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2020.08.26-20.09.09:251][379]LogUObjectHash: Compacting FUObjectHashTables data took   6.03ms
+[2020.08.26-20.09.09:306][379]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest_Auto8CF4D04EE4FD4B44E520F0BA6D8B2C18E.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/ProcTest_Auto8.umap'
+[2020.08.26-20.09.09:310][379]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DD/Core/ProceduralDung/ProcTest' took 0.098
+[2020.08.26-20.09.09:310][379]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.098
+[2020.08.26-20.09.09:310][379]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DD/Core/ProceduralDung/DunGenerator] ([1] browsable assets)...
+[2020.08.26-20.09.09:324][379]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator]
+[2020.08.26-20.09.09:324][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/DD/Core/ProceduralDung/DunGenerator]
+[2020.08.26-20.09.09:508][379]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator_Auto83B0E7CA345F9BFB9911F90A570B9B3BE.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/DunGenerator_Auto8.uasset'
+[2020.08.26-20.09.09:511][379]LogFileHelpers: Auto-saving content packages took 0.201
+[2020.08.26-20.10.06:295][250]LogEditorTransaction: Undo Set Rotation
+[2020.08.26-20.10.14:287][697]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.10.14:786][697]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2020.08.26-20.12.30:715][426]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.12.31:226][426]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2020.08.26-20.13.02:529][124]LogMaterial: Display: Material /Game/DD/Models/Ini/Floor_1/Material.Material needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2020.08.26-20.13.02:557][124]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2020.08.26-20.13.02:649][124]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
+[2020.08.26-20.13.02:649][124]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.08.26-20.13.02:649][124]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.08.26-20.13.21:010][919]LogMaterial: Display: Material /Game/DD/Models/Ini/Wall_1/Material.Material needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2020.08.26-20.13.21:012][919]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2020.08.26-20.13.21:046][919]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
+[2020.08.26-20.13.21:046][919]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.08.26-20.13.21:046][919]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.08.26-20.13.27:638][212]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.13.28:257][212]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2020.08.26-20.13.33:507][417]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/DD/Models/Ini/Wall_1/Wall_1.Wall_1
+[2020.08.26-20.13.34:322][417]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.13.34:322][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.26-20.13.35:230][418]LogRenderer: Reallocating scene render targets to support 1524x920 Format 9 NumSamples 1 (Frame:1).
+[2020.08.26-20.13.53:333][647]LogEditorFactories: Performing atomic reimport of [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx]
+[2020.08.26-20.13.53:398][647]LogFbx: Loading FBX Scene from C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx
+[2020.08.26-20.13.53:415][647]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.26-20.13.53:425][647]LogStaticMesh: Building static mesh Wall_1...
+[2020.08.26-20.13.53:452][647]LogStaticMesh: Built static mesh [0.03s] /Engine/Transient.Wall_1
+[2020.08.26-20.13.54:095][647]LogFbx: Display: Triangulating static mesh Cube
+[2020.08.26-20.13.54:125][647]LogStaticMesh: Building static mesh Wall_1...
+[2020.08.26-20.13.54:127][647]LogStaticMesh: Built static mesh [0.00s] /Game/DD/Models/Ini/Wall_1/Wall_1.Wall_1
+[2020.08.26-20.13.54:156][647]LogEditorFactories: -- imported successfully
+[2020.08.26-20.13.54:160][647]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.26-20.14.06:782][368]LogUObjectHash: Compacting FUObjectHashTables data took   7.20ms
+[2020.08.26-20.14.06:903][368]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2020.08.26-20.14.06:938][368]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest6E8AA14C4B3EA0EECE3FABB20EB79E28.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/ProcTest.umap'
+[2020.08.26-20.14.06:991][368]LogFileHelpers: Saving map 'ProcTest' took 0.165
+[2020.08.26-20.14.07:003][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Models/Ini/Floor_1/Material" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Floor_1/Material.uasset" SILENT=true
+[2020.08.26-20.14.07:063][368]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/MaterialB8429FA044046069B687148531BE5BD1.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Floor_1/Material.uasset'
+[2020.08.26-20.14.07:076][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Models/Ini/Wall_1/Wall_1" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.uasset" SILENT=true
+[2020.08.26-20.14.07:118][368]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Wall_14AC5725C4015EC1496D967AA18D186CE.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.uasset'
+[2020.08.26-20.14.07:133][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Models/Ini/Wall_1/Material" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Material.uasset" SILENT=true
+[2020.08.26-20.14.07:167][368]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/MaterialE90766DC45CE0999ED9654A5069ADEEC.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Material.uasset'
+[2020.08.26-20.14.07:181][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Core/ProceduralDung/DunGenerator" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset" SILENT=true
+[2020.08.26-20.14.07:337][368]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator848D2BC241DC35C3B5DA6AB7CDDC1524.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset'
+[2020.08.26-20.14.07:382][368]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.26-20.14.07:382][368]LogContentValidation: Display: Validating World /Game/DD/Core/ProceduralDung/ProcTest.ProcTest
+[2020.08.26-20.14.07:382][368]LogContentValidation: Display: Validating Material /Game/DD/Models/Ini/Floor_1/Material.Material
+[2020.08.26-20.14.07:382][368]LogContentValidation: Display: Validating StaticMesh /Game/DD/Models/Ini/Wall_1/Wall_1.Wall_1
+[2020.08.26-20.14.07:382][368]LogContentValidation: Display: Validating Material /Game/DD/Models/Ini/Wall_1/Material.Material
+[2020.08.26-20.14.07:382][368]LogContentValidation: Display: Validating Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator
+[2020.08.26-20.14.16:955][137]LogEditorViewport: Clicking on Actor (LMB): DunGenerator_C (DunGenerator)
+[2020.08.26-20.15.11:058][488]LogEditorViewport: Clicking on Actor (LMB): DunGenerator_C (DunGenerator)
+[2020.08.26-20.15.11:739][558]LogEditorViewport: Clicking on Actor (LMB): DunGenerator_C (DunGenerator)
+[2020.08.26-20.15.14:625][865]LogEditorViewport: Clicking on Actor (LMB): DunGenerator_C (DunGenerator)
+[2020.08.26-20.15.15:251][929]LogEditorViewport: Clicking on Actor (LMB): DunGenerator_C (DunGenerator)
+[2020.08.26-20.15.44:193][436]LogEditorFactories: Performing atomic reimport of [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx]
+[2020.08.26-20.15.44:233][436]LogFbx: Loading FBX Scene from C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx
+[2020.08.26-20.15.44:243][436]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.26-20.15.44:249][436]LogFbx: Display: Triangulating static mesh Cube
+[2020.08.26-20.15.44:265][436]LogStaticMesh: Building static mesh Wall_1...
+[2020.08.26-20.15.44:267][436]LogStaticMesh: Built static mesh [0.00s] /Game/DD/Models/Ini/Wall_1/Wall_1.Wall_1
+[2020.08.26-20.15.44:290][436]LogEditorFactories: -- imported successfully
+[2020.08.26-20.15.44:293][436]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.26-20.15.49:248][752]LogEditorFactories: Performing atomic reimport of [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx]
+[2020.08.26-20.15.49:287][752]LogFbx: Loading FBX Scene from C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx
+[2020.08.26-20.15.49:297][752]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.26-20.15.49:301][752]LogFbx: Display: Triangulating static mesh Cube
+[2020.08.26-20.15.49:330][752]LogStaticMesh: Building static mesh Wall_1...
+[2020.08.26-20.15.49:332][752]LogStaticMesh: Built static mesh [0.00s] /Game/DD/Models/Ini/Wall_1/Wall_1.Wall_1
+[2020.08.26-20.15.49:354][752]LogEditorFactories: -- imported successfully
+[2020.08.26-20.15.49:357][752]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.26-20.15.58:807][405]LogEditorFactories: Performing atomic reimport of [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx]
+[2020.08.26-20.15.58:849][405]LogFbx: Loading FBX Scene from C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx
+[2020.08.26-20.15.58:858][405]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.26-20.15.58:862][405]LogFbx: Display: Triangulating static mesh Cube
+[2020.08.26-20.15.58:880][405]LogStaticMesh: Building static mesh Wall_1...
+[2020.08.26-20.15.58:882][405]LogStaticMesh: Built static mesh [0.00s] /Game/DD/Models/Ini/Wall_1/Wall_1.Wall_1
+[2020.08.26-20.15.58:904][405]LogEditorFactories: -- imported successfully
+[2020.08.26-20.15.58:907][405]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.26-20.16.00:995][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Models/Ini/Wall_1/Wall_1" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.uasset" SILENT=true
+[2020.08.26-20.16.01:027][506]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Wall_1D5DAB6E44BE2D88B129D54A4DFD74608.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.uasset'
+[2020.08.26-20.16.01:047][506]AssetCheck: New page: Asset Save: Wall_1
+[2020.08.26-20.16.01:047][506]LogContentValidation: Display: Validating StaticMesh /Game/DD/Models/Ini/Wall_1/Wall_1.Wall_1
+[2020.08.26-20.16.19:923][761]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.16.20:588][761]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2020.08.26-20.16.35:487][634]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.16.36:126][634]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2020.08.26-20.16.39:584][764]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2020.08.26-20.16.39:645][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.08.26-20.16.39:692][764]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTestED370ADC482FFEEEDDD480A3463E3A56.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/ProcTest.umap'
+[2020.08.26-20.16.39:735][764]LogFileHelpers: Saving map 'ProcTest' took 0.123
+[2020.08.26-20.16.39:746][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Core/ProceduralDung/DunGenerator" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset" SILENT=true
+[2020.08.26-20.16.39:906][764]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator2AFE195E458C453B906A2CBC0E2101AF.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset'
+[2020.08.26-20.16.39:934][764]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.26-20.16.39:934][764]LogContentValidation: Display: Validating World /Game/DD/Core/ProceduralDung/ProcTest.ProcTest
+[2020.08.26-20.16.39:934][764]LogContentValidation: Display: Validating Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator
+[2020.08.26-20.16.51:443][542]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.16.51:991][542]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.08.26-20.17.40:788][426]LogEditorFactories: Performing atomic reimport of [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx]
+[2020.08.26-20.17.40:825][426]LogFbx: Loading FBX Scene from C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx
+[2020.08.26-20.17.40:834][426]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.26-20.17.40:839][426]LogFbx: Display: Triangulating static mesh Cube
+[2020.08.26-20.17.40:855][426]LogStaticMesh: Building static mesh Wall_1...
+[2020.08.26-20.17.40:857][426]LogStaticMesh: Built static mesh [0.00s] /Game/DD/Models/Ini/Wall_1/Wall_1.Wall_1
+[2020.08.26-20.17.40:879][426]LogEditorFactories: -- imported successfully
+[2020.08.26-20.17.40:882][426]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.26-20.18.01:778][500]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2020.08.26-20.18.01:843][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.08.26-20.18.01:878][500]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTestDE8C4CE4473D4C595FAED1A9D99BCC63.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/ProcTest.umap'
+[2020.08.26-20.18.01:923][500]LogFileHelpers: Saving map 'ProcTest' took 0.114
+[2020.08.26-20.18.01:935][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Models/Ini/Wall_1/Wall_1" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.uasset" SILENT=true
+[2020.08.26-20.18.01:969][500]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Wall_1CCC6712F4EB21117B5FA01982A89A9A3.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.uasset'
+[2020.08.26-20.18.01:983][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Core/ProceduralDung/DunGenerator" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset" SILENT=true
+[2020.08.26-20.18.02:144][500]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator04939571444D3A5E8D5783A29294492B.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset'
+[2020.08.26-20.18.02:174][500]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.26-20.18.02:174][500]LogContentValidation: Display: Validating World /Game/DD/Core/ProceduralDung/ProcTest.ProcTest
+[2020.08.26-20.18.02:174][500]LogContentValidation: Display: Validating StaticMesh /Game/DD/Models/Ini/Wall_1/Wall_1.Wall_1
+[2020.08.26-20.18.02:174][500]LogContentValidation: Display: Validating Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator
+[2020.08.26-20.18.08:795][962]LogEditorFactories: Performing atomic reimport of [C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx]
+[2020.08.26-20.18.08:839][962]LogFbx: Loading FBX Scene from C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.fbx
+[2020.08.26-20.18.08:848][962]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.26-20.18.08:853][962]LogFbx: Display: Triangulating static mesh Cube
+[2020.08.26-20.18.08:870][962]LogStaticMesh: Building static mesh Wall_1...
+[2020.08.26-20.18.08:872][962]LogStaticMesh: Built static mesh [0.00s] /Game/DD/Models/Ini/Wall_1/Wall_1.Wall_1
+[2020.08.26-20.18.08:895][962]LogEditorFactories: -- imported successfully
+[2020.08.26-20.18.08:898][962]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.26-20.18.11:151][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Models/Ini/Wall_1/Wall_1" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.uasset" SILENT=true
+[2020.08.26-20.18.11:183][ 85]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Wall_1BE5B26E14DDEEEF6C17FE3A0EE69A14D.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Ini/Wall_1/Wall_1.uasset'
+[2020.08.26-20.18.11:200][ 85]AssetCheck: New page: Asset Save: Wall_1
+[2020.08.26-20.18.11:200][ 85]LogContentValidation: Display: Validating StaticMesh /Game/DD/Models/Ini/Wall_1/Wall_1.Wall_1
+[2020.08.26-20.18.30:900][ 96]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.18.31:412][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2020.08.26-20.19.47:112][900]LogEditorViewport: Clicking Background
+[2020.08.26-20.19.53:008][554]LogEditorViewport: Clicking on Actor (LMB): DunGenerator_C (DunGenerator)
+[2020.08.26-20.25.58:389][505]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.26-20.25.58:389][505]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.26-20.26.36:293][ 77]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.26-20.26.36:294][ 77]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.26-20.27.03:754][181]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.27.04:229][181]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2020.08.26-20.28.28:934][833]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.28.29:408][833]LogUObjectHash: Compacting FUObjectHashTables data took   5.42ms
+[2020.08.26-20.28.40:050][258]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.28.40:518][258]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2020.08.26-20.29.49:112][893]LogEditorTransaction: Undo Delete current selection
+[2020.08.26-20.30.33:505][265]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2020.08.26-20.30.33:566][265]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest_Auto951440DE142253C269C2A5B94D4DBB9D3.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/ProcTest_Auto9.umap'
+[2020.08.26-20.30.33:571][265]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DD/Core/ProceduralDung/ProcTest' took 0.114
+[2020.08.26-20.30.33:571][265]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2020.08.26-20.30.33:572][265]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DD/Core/ProceduralDung/DunGenerator] ([1] browsable assets)...
+[2020.08.26-20.30.33:584][265]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator]
+[2020.08.26-20.30.33:584][265]OBJ SavePackage: Finished generating thumbnails for package [/Game/DD/Core/ProceduralDung/DunGenerator]
+[2020.08.26-20.30.33:805][265]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator_Auto9FD3F3ECD4238D1A82C92C1B7ED58AEBF.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/DunGenerator_Auto9.uasset'
+[2020.08.26-20.30.33:808][265]LogFileHelpers: Auto-saving content packages took 0.237
+[2020.08.26-20.30.45:307][832]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.30.46:101][832]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2020.08.26-20.37.48:630][578]LogEditorTransaction: Undo Paste clipboard contents
+[2020.08.26-20.37.49:415][578]LogEditorTransaction: Undo Rename Node
+[2020.08.26-20.41.25:969][674]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2020.08.26-20.41.26:049][674]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest_Auto0617EF9224D7472646B5CAA9F7870AD52.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/ProcTest_Auto0.umap'
+[2020.08.26-20.41.26:057][674]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DD/Core/ProceduralDung/ProcTest' took 0.131
+[2020.08.26-20.41.26:058][674]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.131
+[2020.08.26-20.41.26:058][674]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DD/Core/ProceduralDung/DunGenerator] ([1] browsable assets)...
+[2020.08.26-20.41.26:070][674]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator]
+[2020.08.26-20.41.26:070][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/DD/Core/ProceduralDung/DunGenerator]
+[2020.08.26-20.41.26:274][674]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator_Auto016AAE8034F216FF2A8705A8A9CE81F4C.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/DunGenerator_Auto0.uasset'
+[2020.08.26-20.41.26:277][674]LogFileHelpers: Auto-saving content packages took 0.219
+[2020.08.26-20.43.24:354][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:355][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:355][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:356][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:356][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:357][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:357][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:357][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:358][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:359][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:359][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:359][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:360][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:360][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:360][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:361][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:361][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Engine/Transient.World_1:PersistentLevel.DunGenerator_C_0
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:548][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:549][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:550][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:550][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:551][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:551][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:552][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:552][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:553][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:553][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:553][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:554][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:554][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:555][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:555][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:556][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:556][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_26 via property Room, but TRASH_InstancedStaticMeshComponent_26 is pending kill
+	DunGenerator_C /Game/DD/Core/ProceduralDung/ProcTest.ProcTest:PersistentLevel.DunGenerator_2
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:771][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:772][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:772][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:773][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:773][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:774][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:774][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:774][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:775][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:775][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:776][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:776][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:776][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:777][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:777][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:777][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.24:778][668]LogScript: Warning: Attempted to access TRASH_InstancedStaticMeshComponent_21 via property Room, but TRASH_InstancedStaticMeshComponent_21 is pending kill
+	DunGenerator_C /Engine/Transient.World_2:PersistentLevel.DunGenerator_C_62
+	Function /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator_C:SpawnTiles:0386
+[2020.08.26-20.43.26:931][761]LogEditorTransaction: Undo Attach Component
+[2020.08.26-20.43.59:765][223]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.44.00:900][223]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2020.08.26-20.44.41:502][317]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.44.42:314][317]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2020.08.26-20.45.31:593][669]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/DD/Models/Dung/Column_Column.Column_Column
+[2020.08.26-20.45.31:850][669]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.45.31:850][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.26-20.45.42:070][327]LogStaticMesh: Building static mesh Column_Column...
+[2020.08.26-20.45.42:104][327]LogStaticMesh: Built static mesh [0.04s] /Game/DD/Models/Dung/Column_Column.Column_Column
+[2020.08.26-20.45.46:426][605]LogEditorFactories: Performing atomic reimport of [E:/dung/FBX/Column.fbx]
+[2020.08.26-20.45.46:491][605]LogFbx: Loading FBX Scene from E:/dung/FBX/Column.fbx
+[2020.08.26-20.45.46:499][605]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.26-20.45.46:505][605]LogStaticMesh: Building static mesh Column_Column...
+[2020.08.26-20.45.46:533][605]LogStaticMesh: Built static mesh [0.03s] /Engine/Transient.Column_Column
+[2020.08.26-20.45.46:548][605]LogFbx: Display: Triangulating static mesh Column
+[2020.08.26-20.45.46:594][605]LogStaticMesh: Building static mesh Column_Column...
+[2020.08.26-20.45.46:598][605]LogStaticMesh: Built static mesh [0.00s] /Game/DD/Models/Dung/Column_Column.Column_Column
+[2020.08.26-20.45.46:644][605]LogEditorFactories: -- imported successfully
+[2020.08.26-20.45.46:648][605]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.26-20.46.13:622][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Models/Dung/Column_Column" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Dung/Column_Column.uasset" SILENT=true
+[2020.08.26-20.46.13:666][178]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Column_Column4C3BC8554619F77CD8FB48B0647D0ABF.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Dung/Column_Column.uasset'
+[2020.08.26-20.46.13:687][178]AssetCheck: New page: Asset Save: Column_Column
+[2020.08.26-20.46.13:687][178]LogContentValidation: Display: Validating StaticMesh /Game/DD/Models/Dung/Column_Column.Column_Column
+[2020.08.26-20.46.25:547][879]LogEditorFactories: Performing atomic reimport of [E:/dung/FBX/Column.fbx]
+[2020.08.26-20.46.25:591][879]LogFbx: Loading FBX Scene from E:/dung/FBX/Column.fbx
+[2020.08.26-20.46.25:597][879]LogFbx: FBX Scene Loaded Succesfully
+[2020.08.26-20.46.25:604][879]LogFbx: Display: Triangulating static mesh Column
+[2020.08.26-20.46.25:640][879]LogStaticMesh: Building static mesh Column_Column...
+[2020.08.26-20.46.25:644][879]LogStaticMesh: Built static mesh [0.00s] /Game/DD/Models/Dung/Column_Column.Column_Column
+[2020.08.26-20.46.25:676][879]LogEditorFactories: -- imported successfully
+[2020.08.26-20.46.25:679][879]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.08.26-20.46.35:037][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Models/Dung/Column_Column" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Dung/Column_Column.uasset" SILENT=true
+[2020.08.26-20.46.35:072][424]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Column_Column99B895584E9D136D1F5E63B5807EAC44.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Dung/Column_Column.uasset'
+[2020.08.26-20.46.35:089][424]AssetCheck: New page: Asset Save: Column_Column
+[2020.08.26-20.46.35:089][424]LogContentValidation: Display: Validating StaticMesh /Game/DD/Models/Dung/Column_Column.Column_Column
+[2020.08.26-20.46.57:934][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Models/Dung/Column_Column" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Dung/Column_Column.uasset" SILENT=true
+[2020.08.26-20.46.57:967][753]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Column_Column91EB4D7243C4C237B736CCA64B9A2997.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Models/Dung/Column_Column.uasset'
+[2020.08.26-20.46.57:983][753]AssetCheck: New page: Asset Save: Column_Column
+[2020.08.26-20.46.57:984][753]LogContentValidation: Display: Validating StaticMesh /Game/DD/Models/Dung/Column_Column.Column_Column
+[2020.08.26-20.47.01:234][929]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.47.02:043][929]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2020.08.26-20.48.00:189][225]BlueprintLog: New page: Compile DunGenerator
+[2020.08.26-20.48.00:691][225]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2020.08.26-20.51.26:764][  9]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2020.08.26-20.51.26:813][  9]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest_Auto1D0C73D2E4E0CA25065348F92B7FC23C1.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/ProcTest_Auto1.umap'
+[2020.08.26-20.51.26:818][  9]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DD/Core/ProceduralDung/ProcTest' took 0.092
+[2020.08.26-20.51.26:818][  9]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.092
+[2020.08.26-20.51.26:818][  9]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DD/Core/ProceduralDung/DunGenerator] ([1] browsable assets)...
+[2020.08.26-20.51.26:830][  9]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator]
+[2020.08.26-20.51.26:831][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/DD/Core/ProceduralDung/DunGenerator]
+[2020.08.26-20.51.27:051][  9]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGenerator_Auto1A3E3F5E74992C139C5A72E9F89C5C98A.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/Autosaves/Game/DD/Core/ProceduralDung/DunGenerator_Auto1.uasset'
+[2020.08.26-20.51.27:054][  9]LogFileHelpers: Auto-saving content packages took 0.235
+[2020.08.26-20.52.50:602][545]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2020.08.26-20.52.50:666][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.08.26-20.52.50:704][545]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/ProcTest9E556E9D48549804B71794B1F0C310CA.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/ProcTest.umap'
+[2020.08.26-20.52.50:759][545]LogFileHelpers: Saving map 'ProcTest' took 0.129
+[2020.08.26-20.52.50:760][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DD/Core/ProceduralDung/DunGenerator" FILE="C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset" SILENT=true
+[2020.08.26-20.52.50:915][545]LogSavePackage: Moving 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Saved/DunGeneratorE6106B7B429CBCA1BF2B59B960696486.tmp' to 'C:/Users/misha/Documents/Unreal Projects/DDproj/DD/Content/DD/Core/ProceduralDung/DunGenerator.uasset'
+[2020.08.26-20.52.50:940][545]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.26-20.52.50:941][545]LogContentValidation: Display: Validating World /Game/DD/Core/ProceduralDung/ProcTest.ProcTest
+[2020.08.26-20.52.50:941][545]LogContentValidation: Display: Validating Blueprint /Game/DD/Core/ProceduralDung/DunGenerator.DunGenerator
+[2020.08.26-20.52.59:022][145]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2020.08.26-20.53.19:438][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.08.26-20.53.22:845][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.08.26-20.53.22:961][365]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.22:961][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.26-20.53.23:823][365]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.23:823][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.26-20.53.23:839][365]LogSlate: Window 'Column_Column' being destroyed
+[2020.08.26-20.53.24:009][365]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.24:009][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.26-20.53.24:122][365]LogSlate: Window 'DDproj - Unreal Editor' being destroyed
+[2020.08.26-20.53.24:124][365]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.26-20.53.24:468][366]Cmd: QUIT_EDITOR
+[2020.08.26-20.53.24:469][366]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.08.26-20.53.24:485][366]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.08.26-20.53.24:632][366]LogExit: Preparing to exit.
+[2020.08.26-20.53.25:691][366]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:693][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:693][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:693][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:693][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:693][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:693][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:693][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:693][366]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:698][366]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:701][366]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:703][366]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:705][366]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:708][366]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:710][366]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:713][366]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:715][366]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:717][366]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:720][366]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:723][366]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:726][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:726][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:726][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:726][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:726][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:726][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:726][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:726][366]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:728][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:728][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:728][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:728][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:728][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:728][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:728][366]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.08.26-20.53.25:728][366]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:731][366]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.25:858][366]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.08.26-20.53.26:064][366]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.08.26-20.53.26:066][366]LogExit: Editor shut down
+[2020.08.26-20.53.26:078][366]LogExit: Transaction tracking system shut down
+[2020.08.26-20.53.26:844][366]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000002721E86D700), frame # 2742366
+[2020.08.26-20.53.26:845][366]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002721E7E47C0), frame # 2742366
+[2020.08.26-20.53.26:847][366]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002721E7FDE00), frame # 2742366
+[2020.08.26-20.53.27:057][366]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002722C0B9E40), frame # 2742366
+[2020.08.26-20.53.27:057][366]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000272400E1000), frame # 2742366
+[2020.08.26-20.53.27:342][366]LogExit: Object subsystem successfully closed.
+[2020.08.26-20.53.27:441][366]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.08.26-20.53.27:628][366]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (798)
+[2020.08.26-20.53.27:628][366]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (796)
+[2020.08.26-20.53.27:629][366]LogModuleManager: Shutting down and abandoning module BlueprintGraph (794)
+[2020.08.26-20.53.27:630][366]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2020.08.26-20.53.27:630][366]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2020.08.26-20.53.27:631][366]LogModuleManager: Shutting down and abandoning module AddContentDialog (786)
+[2020.08.26-20.53.27:646][366]LogModuleManager: Shutting down and abandoning module WidgetCarousel (785)
+[2020.08.26-20.53.27:646][366]LogModuleManager: Shutting down and abandoning module EditorWidgets (782)
+[2020.08.26-20.53.27:646][366]LogModuleManager: Shutting down and abandoning module CollectionManager (780)
+[2020.08.26-20.53.27:647][366]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2020.08.26-20.53.27:649][366]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2020.08.26-20.53.27:649][366]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2020.08.26-20.53.27:650][366]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2020.08.26-20.53.27:655][366]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2020.08.26-20.53.27:655][366]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2020.08.26-20.53.27:655][366]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2020.08.26-20.53.27:655][366]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2020.08.26-20.53.27:657][366]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2020.08.26-20.53.27:657][366]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2020.08.26-20.53.27:658][366]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2020.08.26-20.53.27:658][366]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2020.08.26-20.53.27:659][366]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2020.08.26-20.53.27:659][366]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2020.08.26-20.53.27:659][366]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2020.08.26-20.53.27:665][366]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2020.08.26-20.53.27:666][366]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2020.08.26-20.53.27:671][366]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2020.08.26-20.53.27:672][366]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2020.08.26-20.53.27:672][366]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2020.08.26-20.53.27:672][366]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2020.08.26-20.53.27:673][366]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2020.08.26-20.53.27:673][366]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2020.08.26-20.53.27:673][366]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2020.08.26-20.53.27:675][366]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2020.08.26-20.53.27:676][366]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2020.08.26-20.53.27:678][366]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2020.08.26-20.53.27:678][366]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2020.08.26-20.53.27:678][366]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2020.08.26-20.53.27:678][366]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2020.08.26-20.53.27:678][366]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2020.08.26-20.53.27:678][366]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2020.08.26-20.53.27:678][366]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2020.08.26-20.53.27:678][366]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2020.08.26-20.53.27:679][366]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2020.08.26-20.53.27:679][366]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2020.08.26-20.53.27:679][366]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2020.08.26-20.53.27:680][366]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2020.08.26-20.53.27:680][366]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2020.08.26-20.53.27:680][366]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2020.08.26-20.53.27:681][366]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2020.08.26-20.53.27:681][366]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2020.08.26-20.53.27:681][366]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2020.08.26-20.53.27:682][366]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2020.08.26-20.53.27:682][366]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2020.08.26-20.53.27:682][366]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2020.08.26-20.53.27:684][366]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2020.08.26-20.53.27:684][366]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2020.08.26-20.53.27:684][366]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2020.08.26-20.53.27:687][366]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2020.08.26-20.53.27:688][366]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2020.08.26-20.53.27:691][366]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2020.08.26-20.53.27:692][366]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2020.08.26-20.53.27:695][366]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2020.08.26-20.53.27:695][366]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2020.08.26-20.53.27:696][366]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2020.08.26-20.53.27:696][366]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2020.08.26-20.53.28:642][366]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2020.08.26-20.53.28:643][366]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2020.08.26-20.53.28:643][366]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2020.08.26-20.53.28:643][366]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2020.08.26-20.53.28:643][366]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2020.08.26-20.53.28:651][366]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2020.08.26-20.53.28:652][366]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2020.08.26-20.53.28:652][366]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2020.08.26-20.53.28:653][366]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2020.08.26-20.53.28:653][366]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2020.08.26-20.53.28:655][366]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2020.08.26-20.53.28:656][366]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2020.08.26-20.53.28:656][366]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2020.08.26-20.53.28:657][366]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2020.08.26-20.53.28:657][366]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2020.08.26-20.53.28:658][366]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2020.08.26-20.53.28:658][366]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2020.08.26-20.53.28:659][366]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2020.08.26-20.53.28:659][366]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2020.08.26-20.53.28:660][366]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2020.08.26-20.53.28:661][366]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2020.08.26-20.53.28:662][366]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2020.08.26-20.53.28:663][366]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2020.08.26-20.53.28:663][366]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2020.08.26-20.53.28:664][366]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2020.08.26-20.53.28:666][366]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2020.08.26-20.53.28:699][366]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2020.08.26-20.53.28:700][366]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2020.08.26-20.53.28:701][366]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2020.08.26-20.53.28:703][366]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2020.08.26-20.53.28:703][366]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2020.08.26-20.53.28:704][366]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2020.08.26-20.53.28:704][366]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2020.08.26-20.53.28:706][366]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2020.08.26-20.53.28:708][366]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2020.08.26-20.53.28:709][366]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2020.08.26-20.53.28:709][366]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2020.08.26-20.53.28:760][366]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2020.08.26-20.53.28:761][366]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2020.08.26-20.53.28:762][366]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2020.08.26-20.53.28:763][366]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2020.08.26-20.53.28:763][366]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2020.08.26-20.53.28:763][366]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2020.08.26-20.53.28:763][366]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2020.08.26-20.53.28:772][366]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2020.08.26-20.53.28:772][366]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2020.08.26-20.53.28:774][366]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2020.08.26-20.53.28:775][366]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2020.08.26-20.53.28:775][366]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2020.08.26-20.53.28:776][366]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2020.08.26-20.53.28:777][366]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2020.08.26-20.53.28:777][366]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2020.08.26-20.53.28:777][366]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2020.08.26-20.53.28:777][366]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2020.08.26-20.53.28:777][366]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2020.08.26-20.53.28:777][366]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2020.08.26-20.53.28:777][366]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2020.08.26-20.53.28:777][366]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2020.08.26-20.53.28:777][366]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2020.08.26-20.53.28:779][366]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2020.08.26-20.53.28:779][366]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2020.08.26-20.53.28:779][366]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2020.08.26-20.53.28:779][366]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2020.08.26-20.53.28:835][366]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2020.08.26-20.53.28:836][366]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2020.08.26-20.53.28:836][366]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2020.08.26-20.53.28:836][366]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2020.08.26-20.53.28:838][366]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2020.08.26-20.53.28:838][366]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2020.08.26-20.53.28:838][366]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2020.08.26-20.53.28:838][366]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2020.08.26-20.53.28:839][366]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2020.08.26-20.53.28:839][366]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2020.08.26-20.53.28:839][366]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2020.08.26-20.53.28:839][366]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2020.08.26-20.53.28:839][366]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2020.08.26-20.53.28:840][366]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2020.08.26-20.53.28:840][366]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2020.08.26-20.53.28:840][366]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2020.08.26-20.53.28:840][366]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2020.08.26-20.53.28:840][366]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2020.08.26-20.53.28:840][366]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2020.08.26-20.53.28:840][366]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2020.08.26-20.53.28:840][366]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2020.08.26-20.53.28:841][366]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2020.08.26-20.53.28:843][366]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2020.08.26-20.53.28:843][366]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2020.08.26-20.53.28:843][366]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2020.08.26-20.53.28:844][366]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2020.08.26-20.53.28:844][366]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2020.08.26-20.53.28:844][366]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2020.08.26-20.53.28:844][366]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2020.08.26-20.53.28:845][366]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2020.08.26-20.53.28:846][366]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2020.08.26-20.53.28:846][366]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2020.08.26-20.53.28:847][366]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2020.08.26-20.53.28:847][366]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2020.08.26-20.53.28:847][366]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2020.08.26-20.53.28:847][366]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2020.08.26-20.53.28:847][366]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2020.08.26-20.53.28:847][366]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2020.08.26-20.53.28:852][366]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2020.08.26-20.53.28:852][366]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2020.08.26-20.53.28:853][366]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2020.08.26-20.53.28:854][366]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2020.08.26-20.53.28:854][366]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2020.08.26-20.53.28:854][366]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2020.08.26-20.53.28:854][366]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2020.08.26-20.53.28:854][366]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2020.08.26-20.53.28:854][366]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2020.08.26-20.53.28:854][366]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2020.08.26-20.53.28:854][366]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2020.08.26-20.53.28:854][366]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2020.08.26-20.53.28:854][366]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2020.08.26-20.53.28:855][366]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2020.08.26-20.53.28:855][366]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2020.08.26-20.53.28:855][366]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2020.08.26-20.53.28:856][366]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2020.08.26-20.53.28:856][366]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2020.08.26-20.53.28:856][366]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2020.08.26-20.53.28:856][366]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2020.08.26-20.53.28:856][366]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2020.08.26-20.53.28:856][366]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2020.08.26-20.53.28:856][366]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2020.08.26-20.53.28:857][366]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2020.08.26-20.53.28:858][366]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2020.08.26-20.53.28:858][366]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2020.08.26-20.53.28:860][366]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2020.08.26-20.53.28:860][366]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2020.08.26-20.53.28:861][366]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2020.08.26-20.53.28:862][366]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2020.08.26-20.53.28:863][366]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2020.08.26-20.53.28:864][366]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2020.08.26-20.53.28:864][366]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2020.08.26-20.53.28:864][366]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2020.08.26-20.53.28:864][366]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2020.08.26-20.53.28:864][366]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2020.08.26-20.53.28:865][366]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2020.08.26-20.53.28:865][366]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2020.08.26-20.53.28:867][366]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2020.08.26-20.53.28:870][366]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2020.08.26-20.53.28:871][366]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2020.08.26-20.53.28:873][366]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2020.08.26-20.53.28:873][366]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2020.08.26-20.53.28:873][366]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2020.08.26-20.53.28:873][366]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2020.08.26-20.53.28:873][366]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2020.08.26-20.53.28:874][366]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2020.08.26-20.53.28:874][366]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2020.08.26-20.53.28:874][366]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2020.08.26-20.53.28:876][366]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.08.26-20.53.28:876][366]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.08.26-20.53.28:876][366]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.08.26-20.53.28:876][366]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.08.26-20.53.28:876][366]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.08.26-20.53.28:876][366]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.08.26-20.53.28:876][366]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.08.26-20.53.28:977][366]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.08.26-20.53.29:078][366]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.08.26-20.53.29:078][366]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.08.26-20.53.29:078][366]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.08.26-20.53.29:078][366]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.08.26-20.53.29:078][366]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.08.26-20.53.29:079][366]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.08.26-20.53.29:079][366]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.08.26-20.53.29:079][366]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.08.26-20.53.29:079][366]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.08.26-20.53.29:080][366]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.08.26-20.53.29:081][366]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.08.26-20.53.29:082][366]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.08.26-20.53.29:082][366]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.08.26-20.53.29:083][366]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.08.26-20.53.29:083][366]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.08.26-20.53.29:083][366]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.08.26-20.53.29:083][366]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.08.26-20.53.29:084][366]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.08.26-20.53.29:085][366]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.08.26-20.53.29:089][366]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.08.26-20.53.29:089][366]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.08.26-20.53.29:089][366]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.08.26-20.53.29:090][366]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.08.26-20.53.29:090][366]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.08.26-20.53.29:090][366]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.08.26-20.53.29:092][366]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.08.26-20.53.29:095][366]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.08.26-20.53.29:097][366]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.08.26-20.53.29:097][366]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.08.26-20.53.29:098][366]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.08.26-20.53.29:100][366]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.08.26-20.53.29:100][366]LogModuleManager: Shutting down and abandoning module ContentBrowser (289)
+[2020.08.26-20.53.29:103][366]LogModuleManager: Shutting down and abandoning module TreeMap (287)
+[2020.08.26-20.53.29:104][366]LogModuleManager: Shutting down and abandoning module AnimationSharing (284)
+[2020.08.26-20.53.29:104][366]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (282)
+[2020.08.26-20.53.29:104][366]LogModuleManager: Shutting down and abandoning module Paper2D (280)
+[2020.08.26-20.53.29:104][366]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (278)
+[2020.08.26-20.53.29:383][366]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (276)
+[2020.08.26-20.53.29:383][366]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (274)
+[2020.08.26-20.53.29:383][366]LogModuleManager: Shutting down and abandoning module PacketHandler (272)
+[2020.08.26-20.53.29:383][366]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (270)
+[2020.08.26-20.53.29:383][366]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (268)
+[2020.08.26-20.53.29:385][366]LogModuleManager: Shutting down and abandoning module MediaAssets (266)
+[2020.08.26-20.53.29:385][366]LogModuleManager: Shutting down and abandoning module Overlay (264)
+[2020.08.26-20.53.29:385][366]LogModuleManager: Shutting down and abandoning module OverlayEditor (263)
+[2020.08.26-20.53.29:385][366]LogModuleManager: Shutting down and abandoning module VREditor (260)
+[2020.08.26-20.53.29:386][366]LogModuleManager: Shutting down and abandoning module StringTableEditor (258)
+[2020.08.26-20.53.29:387][366]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (256)
+[2020.08.26-20.53.29:387][366]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (254)
+[2020.08.26-20.53.29:389][366]LogModuleManager: Shutting down and abandoning module FunctionalTesting (252)
+[2020.08.26-20.53.29:389][366]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (250)
+[2020.08.26-20.53.29:390][366]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (249)
+[2020.08.26-20.53.29:393][366]LogModuleManager: Shutting down and abandoning module UMG (246)
+[2020.08.26-20.53.29:393][366]LogModuleManager: Shutting down and abandoning module UMGEditor (245)
+[2020.08.26-20.53.29:396][366]LogModuleManager: Shutting down and abandoning module MessageLog (243)
+[2020.08.26-20.53.29:396][366]LogModuleManager: Shutting down and abandoning module MaterialEditor (241)
+[2020.08.26-20.53.29:398][366]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.08.26-20.53.29:401][366]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.08.26-20.53.29:401][366]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.08.26-20.53.29:401][366]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.08.26-20.53.29:401][366]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.08.26-20.53.29:401][366]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.08.26-20.53.29:401][366]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.08.26-20.53.29:401][366]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.08.26-20.53.29:401][366]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.08.26-20.53.29:401][366]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.08.26-20.53.29:401][366]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.08.26-20.53.29:402][366]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.08.26-20.53.29:405][366]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.08.26-20.53.29:408][366]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.08.26-20.53.29:414][366]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.08.26-20.53.29:432][366]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.08.26-20.53.29:432][366]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.08.26-20.53.29:432][366]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.08.26-20.53.29:433][366]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.08.26-20.53.29:434][366]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.08.26-20.53.29:434][366]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.08.26-20.53.29:435][366]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.08.26-20.53.29:435][366]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.08.26-20.53.29:438][366]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.08.26-20.53.29:439][366]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.08.26-20.53.29:440][366]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.08.26-20.53.29:440][366]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.08.26-20.53.29:440][366]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.08.26-20.53.29:441][366]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.08.26-20.53.29:442][366]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.08.26-20.53.29:442][366]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.08.26-20.53.29:443][366]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.08.26-20.53.29:443][366]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.08.26-20.53.29:443][366]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.08.26-20.53.29:444][366]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.08.26-20.53.29:444][366]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.08.26-20.53.29:444][366]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.08.26-20.53.29:445][366]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.08.26-20.53.29:447][366]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.08.26-20.53.29:447][366]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.08.26-20.53.29:448][366]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.08.26-20.53.29:448][366]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.08.26-20.53.29:448][366]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.08.26-20.53.29:448][366]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.08.26-20.53.29:449][366]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.08.26-20.53.29:449][366]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.08.26-20.53.29:449][366]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.08.26-20.53.29:449][366]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.08.26-20.53.29:449][366]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.08.26-20.53.29:485][366]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.08.26-20.53.29:494][366]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.08.26-20.53.29:494][366]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.08.26-20.53.29:495][366]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.08.26-20.53.29:495][366]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.08.26-20.53.29:495][366]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.08.26-20.53.29:496][366]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.08.26-20.53.29:496][366]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.08.26-20.53.29:496][366]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.08.26-20.53.29:496][366]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.08.26-20.53.29:581][366]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.08.26-20.53.29:791][366]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.08.26-20.53.29:791][366]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.08.26-20.53.29:791][366]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.08.26-20.53.29:792][366]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.08.26-20.53.29:793][366]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.08.26-20.53.29:793][366]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.08.26-20.53.29:795][366]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.08.26-20.53.29:795][366]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.08.26-20.53.29:796][366]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.08.26-20.53.29:797][366]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.08.26-20.53.29:797][366]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.08.26-20.53.29:798][366]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.08.26-20.53.29:798][366]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.08.26-20.53.29:798][366]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.08.26-20.53.29:799][366]LogHMD: Freeing OpenVRDLLHandle.
+[2020.08.26-20.53.29:799][366]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.08.26-20.53.29:800][366]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.08.26-20.53.29:800][366]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.08.26-20.53.29:800][366]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.08.26-20.53.29:800][366]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.08.26-20.53.29:806][366]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.08.26-20.53.29:808][366]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.08.26-20.53.29:824][366]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.08.26-20.53.29:824][366]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2020.08.26-20.53.29:824][366]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDD286C03-48AC-643D-8717-8E935DBB4765%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.2-13908680%2B%2B%2BUE4%2BRelease-4.25&UserID=f12bac1a41ff3f5acb5a228991d4933a%7Ce40a3d5b90c94d28b33b9a958a80199b%7Cd7dc4a0d-4bb4-4069-a537-9cc537540775&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.08.26-20.53.29:824][366]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDD286C03-48AC-643D-8717-8E935DBB4765%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.2-13908680%2B%2B%2BUE4%2BRelease-4.25&UserID=f12bac1a41ff3f5acb5a228991d4933a%7Ce40a3d5b90c94d28b33b9a958a80199b%7Cd7dc4a0d-4bb4-4069-a537-9cc537540775&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.08.26-20.53.29:833][366]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.08.26-20.53.29:843][366]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.08.26-20.53.29:847][366]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.08.26-20.53.29:848][366]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.08.26-20.53.29:849][366]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.08.26-20.53.29:849][366]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.08.26-20.53.29:851][366]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.08.26-20.53.29:852][366]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.08.26-20.53.29:853][366]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.08.26-20.53.29:853][366]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.08.26-20.53.29:855][366]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.08.26-20.53.29:855][366]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.08.26-20.53.29:855][366]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.08.26-20.53.29:855][366]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.08.26-20.53.29:857][366]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.08.26-20.53.29:859][366]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.08.26-20.53.29:863][366]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.08.26-20.53.29:864][366]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.08.26-20.53.29:864][366]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.08.26-20.53.29:864][366]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.08.26-20.53.29:875][366]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.08.26-20.53.29:876][366]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.08.26-20.53.29:876][366]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.08.26-20.53.29:876][366]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.08.26-20.53.29:877][366]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.08.26-20.53.29:877][366]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.08.26-20.53.29:877][366]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.08.26-20.53.29:878][366]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.08.26-20.53.29:878][366]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.08.26-20.53.29:878][366]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.08.26-20.53.29:878][366]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.08.26-20.53.29:881][366]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.08.26-20.53.29:882][366]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.08.26-20.53.29:919][366]LogD3D11RHI: Shutdown
+[2020.08.26-20.53.29:919][366]LogD3D11RHI: CleanupD3DDevice
+[2020.08.26-20.53.29:965][366]LogExit: Exiting.
+[2020.08.26-20.53.29:986][366]Log file closed, 08/26/20 23:53:29
